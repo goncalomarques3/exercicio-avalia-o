@@ -2,12 +2,10 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Exercício 01</title>
 </head>
 <body>
 
 <script>
-   
     let paises = [
         'Albânia',
         'Bolívia',
@@ -22,34 +20,28 @@
         'Quênia'
     ];
 
-    
     for (let i = 0; i < paises.length; i++) {
         console.log(paises[i]);
     }
 
-    
-    function numeroDePaises() {
+    function contarPaises() {
         return paises.length;
     }
 
-    console.log("Número de países:", numeroDePaises());
+    console.log(contarPaises());
 
-  
-    paises.unshift('Portugal');
+    paises.unshift("Portugal");
+    paises.push("Espanha");
 
-   
-    paises.push('Espanha');
-
-   
-    function mostrarUltimosTres() {
+    function ultimosTres() {
         console.log(paises.slice(-3));
     }
 
-    mostrarUltimosTres();
+    ultimosTres();
 
-
-    console.log(paises.join(' - '));
+    console.log(paises.join(" - "));
 </script>
 
 </body>
 </html>
+
