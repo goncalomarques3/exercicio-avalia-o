@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 03</title>
+</head>
+<body>
+
+<script>
+    
+    let titulo = "Isto é um título longo de um livro";
+
+  
+    console.log("Número de caracteres:", titulo.length);
+
+  
+    titulo = titulo.replace("livro", "diário");
+
+ 
+    titulo += " mas não faz mal porque não é uma seca";
+
+    console.log(titulo.substring(0, 4));
+</script>
+
+</body>
+</html>
