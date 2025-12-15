@@ -6,19 +6,7 @@
 <body>
 
 <script>
-    let paises = [
-        'Albânia',
-        'Bolívia',
-        'Canadá',
-        'Dinamarca',
-        'Etiópia',
-        'Finlândia',
-        'Alemanha',
-        'Hungria',
-        'Irlanda',
-        'Japão',
-        'Quênia'
-    ];
+    let paises = ['Albânia','Bolívia','Canadá','Dinamarca','Etiópia','Finlândia','Alemanha','Hungria','Irlanda','Japão','Quênia'];
 
     for (let i = 0; i < paises.length; i++) {
         console.log(paises[i]);
