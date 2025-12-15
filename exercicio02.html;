@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 02</title>
+</head>
+<body>
+
+<script>
+   
+    function calcularPreco(preco, desconto) {
+
+        if (desconto === 0) {
+            return preco * 2;
+        }
+
+        if (desconto < 10) {
+            return preco + (preco * desconto / 100);
+        }
+
+        if (desconto > 10 && desconto < 30) {
+            return preco - (preco * desconto / 100);
+        }
+    }
+
+   
+    console.log(calcularPreco(100, 5));
+    console.log(calcularPreco(100, 20));  
+    console.log(calcularPreco(100, 0));   
+</script>
+
+</body>
+</html>
