@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 01</title>
+</head>
+<body>
+
+<script>
+   
+    let paises = [
+        'Albânia',
+        'Bolívia',
+        'Canadá',
+        'Dinamarca',
+        'Etiópia',
+        'Finlândia',
+        'Alemanha',
+        'Hungria',
+        'Irlanda',
+        'Japão',
+        'Quênia'
+    ];
+
+    
+    for (let i = 0; i < paises.length; i++) {
+        console.log(paises[i]);
+    }
+
+    
+    function numeroDePaises() {
+        return paises.length;
+    }
+
+    console.log("Número de países:", numeroDePaises());
+
+  
+    paises.unshift('Portugal');
+
+   
+    paises.push('Espanha');
+
+   
+    function mostrarUltimosTres() {
+        console.log(paises.slice(-3));
+    }
+
+    mostrarUltimosTres();
+
+
+    console.log(paises.join(' - '));
+</script>
+
+</body>
+</html>
