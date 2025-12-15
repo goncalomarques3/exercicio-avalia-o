@@ -33,11 +33,11 @@
     paises.unshift("Portugal");
     paises.push("Espanha");
 
-    function ultimosTres() {
+    function mostrarUltimosTres() {
         console.log(paises.slice(-3));
     }
 
-    ultimosTres();
+    mostrarUltimosTres();
 
     console.log(paises.join(" - "));
 </script>
