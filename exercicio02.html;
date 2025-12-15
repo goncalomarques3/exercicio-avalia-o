@@ -1,15 +1,14 @@
 
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Exercício 02</title>
 </head>
 <body>
 
 <script>
-   
-    function calcularPreco(preco, desconto) {
+    function calcularValor(preco, desconto) {
 
         if (desconto === 0) {
             return preco * 2;
@@ -24,11 +23,11 @@
         }
     }
 
-   
-    console.log(calcularPreco(100, 5));
-    console.log(calcularPreco(100, 20));  
-    console.log(calcularPreco(100, 0));   
+    console.log(calcularValor(100, 5));
+    console.log(calcularValor(100, 20));
+    console.log(calcularValor(100, 0));
 </script>
 
 </body>
 </html>
+
